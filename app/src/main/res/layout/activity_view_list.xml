@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#13C8C5C5"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context=".ViewList">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:paddingTop="5dp"
+        android:text="Listado de Motocicletas"
+        android:textAlignment="center"
+        android:textColor="#A1000000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/listar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="0dp"
+        android:divider="#04070606"
+        android:dividerHeight="0dp"
+        android:scrollbarSize="4dp" />
+
+
+</RelativeLayout>

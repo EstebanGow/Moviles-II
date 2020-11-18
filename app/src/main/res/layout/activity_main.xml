@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/libro"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_fileName="moto.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="barr.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="256dp"
+        app:srcCompat="@drawable/logo" />
+
+
+</RelativeLayout>

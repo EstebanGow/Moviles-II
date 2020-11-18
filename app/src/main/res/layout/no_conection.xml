@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/medalla"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="9dp"
+            android:paddingBottom="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="animate.json"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="casual"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Ups... parece que no tienes conexion a internet, revisa tu conexión y vuelve a intentarlo."
+            android:textAlignment="center"
+            android:textColor="#00B0FF"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+</RelativeLayout>
